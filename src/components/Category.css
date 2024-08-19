@@ -1,0 +1,55 @@
+/* src/components/Category.css */
+
+.category-container {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-name {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.widgets-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.widget-box {
+  flex: 1 1 auto;
+  min-width: 200px;
+  background-color: #fafafa;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.widget-item {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-widget-btn {
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+}
